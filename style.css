@@ -81,7 +81,7 @@
 
 #mtavari {
     width: 722px;
-    height: 1156px;
+    height: 1200px;
     margin-top: 74px;
     margin-left: 20px;
 }
@@ -197,17 +197,13 @@
 
 #wreebis {
     margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     margin-left: 16px;
     margin-right: 16px;
 }
 
 #wreebi {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
+    display: block; 
+    margin-bottom: 8px; 
 }
 
 #img {
@@ -216,6 +212,7 @@
     margin-right: 8px;
     border-radius: 50%;
     opacity: 1;
+    vertical-align: middle; 
 }
 
 #t, #x, #e {
@@ -228,24 +225,20 @@
     margin-right: 8px;
     margin-top: 0;
     margin-bottom: 0;
+    display: inline-block; 
 }
+
 
 #para {
     width: 216px;
 height: 32px;
-gap: 0px;
-opacity: 0px;
-font-family: Lato;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
-text-align: left;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-underline-position: from-font;
-text-decoration-skip-ink: auto;
-color:#00D4BC;
 text-align: right;
+color:#00D4BC;
+margin-left: 500px;
+text-decoration: underline;
 }
 
 
